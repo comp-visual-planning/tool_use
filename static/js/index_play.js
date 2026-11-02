@@ -1,0 +1,91 @@
+const MAX_HYDRATE = 36; // max videos to hydrate at once
+const _hydrated = new Set();
+
+function _hydrateVideo(v) {
+    if (!v || v.src) return;
+    if (_hydrated.size >= MAX_HYDRATE) return;
+    const src = v.dataset.src;
+    if (!src) return;
+    _hydrated.add(v);
+    v.src = src;
+    v.load();
+}
+
+function _dehydrateVideo(v) {
+    if (!v || !v.src) return;
+    try { v.pause(); } catch (_) { }
+    v.removeAttribute('src');
+    v.load();
+    _hydrated.delete(v);
+}
+
+function wireVideoLifecycleForSplide(splide, rootEl) {
+    let splideInView = false;
+
+    function update() {
+        const slides = Array.from(rootEl.querySelectorAll('.splide__slide'));
+
+        if (!splideInView) {
+            slides.forEach(li => li.querySelectorAll('video').forEach(_dehydrateVideo));
+            return;
+        }
+
+        const idx = splide.index;
+        slides.forEach((li, i) => {
+            const vids = li.querySelectorAll('video');
+            if (Math.abs(i - idx) <= 1) {
+                vids.forEach(_hydrateVideo);
+            } else {
+                vids.forEach(_dehydrateVideo);
+            }
+        });
+    }
+
+    splide.on('mounted move', update);
+
+    const rootIO = new IntersectionObserver(([entry]) => {
+        splideInView = entry.intersectionRatio > 0;
+        update();
+    }, { threshold: 0 });
+    rootIO.observe(rootEl);
+
+    const io = new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+            const v = e.target;
+            if (e.intersectionRatio > 0) {
+                _hydrateVideo(v);
+            } else {
+                _dehydrateVideo(v);
+            }
+        });
+    }, { threshold: 0 });
+
+    rootEl.querySelectorAll('video').forEach(v => io.observe(v));
+
+    update();
+}
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const root = document.getElementById('splide-mw-qual');
+    if (!root) return; // not on this page
+
+    const splide = new Splide('#splide-mw-qual', {
+        type: 'slide',
+        perPage: 1,
+        perMove: 1,
+        padding: '0rem',
+        lazyLoad: 'nearby',
+        focus: 0,
+        pagination: true,
+        breakpoints: { 640: { arrows: false } },
+    });
+
+    // Ensure DOM is ready, then mount and attach the lifecycle hook
+    splide.on('mounted', () => {
+        // Hydrate only current/adjacent slides; dehydrate the rest
+        wireVideoLifecycleForSplide(splide, root);
+    });
+
+    splide.mount();
+});

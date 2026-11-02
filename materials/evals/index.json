@@ -1,0 +1,334 @@
+{
+  "tool_use": {
+    "pairs": {
+      "0_0": {
+        "episodes": [
+          {
+            "start_img": "materials/evals/tool_use/start_0_goal_0/start_rt/ep_13_start.png",
+            "goal_img": "materials/evals/tool_use/start_0_goal_0/goal_rt/ep_13_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_0_goal_0/synthesized_video/ours/zt_episode_13_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_0/synthesized_video/diffcollage/zt_episode_13_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_0_goal_0/policy_rollout/ours/rollout_episode_13_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_0/policy_rollout/diffcollage/rollout_episode_13_success_0.mp4"
+            },
+            "size_bytes": 1657584
+          },
+          {
+            "start_img": "materials/evals/tool_use/start_0_goal_0/start_rt/ep_9_start.png",
+            "goal_img": "materials/evals/tool_use/start_0_goal_0/goal_rt/ep_9_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_0_goal_0/synthesized_video/ours/zt_episode_9_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_0/synthesized_video/diffcollage/zt_episode_9_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_0_goal_0/policy_rollout/ours/rollout_episode_9_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_0/policy_rollout/diffcollage/rollout_episode_9_success_0.mp4"
+            },
+            "size_bytes": 1672842
+          },
+          {
+            "start_img": "materials/evals/tool_use/start_0_goal_0/start_rt/ep_5_start.png",
+            "goal_img": "materials/evals/tool_use/start_0_goal_0/goal_rt/ep_5_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_0_goal_0/synthesized_video/ours/zt_episode_5_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_0/synthesized_video/diffcollage/zt_episode_5_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_0_goal_0/policy_rollout/ours/rollout_episode_5_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_0/policy_rollout/diffcollage/rollout_episode_5_success_0.mp4"
+            },
+            "size_bytes": 1748769
+          },
+          {
+            "start_img": "materials/evals/tool_use/start_0_goal_0/start_rt/ep_1_start.png",
+            "goal_img": "materials/evals/tool_use/start_0_goal_0/goal_rt/ep_1_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_0_goal_0/synthesized_video/ours/zt_episode_1_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_0/synthesized_video/diffcollage/zt_episode_1_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_0_goal_0/policy_rollout/ours/rollout_episode_1_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_0/policy_rollout/diffcollage/rollout_episode_1_success_0.mp4"
+            },
+            "size_bytes": 1766449
+          },
+          {
+            "start_img": "materials/evals/tool_use/start_0_goal_0/start_rt/ep_4_start.png",
+            "goal_img": "materials/evals/tool_use/start_0_goal_0/goal_rt/ep_4_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_0_goal_0/synthesized_video/ours/zt_episode_4_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_0/synthesized_video/diffcollage/zt_episode_4_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_0_goal_0/policy_rollout/ours/rollout_episode_4_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_0/policy_rollout/diffcollage/rollout_episode_4_success_0.mp4"
+            },
+            "size_bytes": 1803602
+          },
+          {
+            "start_img": "materials/evals/tool_use/start_0_goal_0/start_rt/ep_14_start.png",
+            "goal_img": "materials/evals/tool_use/start_0_goal_0/goal_rt/ep_14_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_0_goal_0/synthesized_video/ours/zt_episode_14_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_0/synthesized_video/diffcollage/zt_episode_14_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_0_goal_0/policy_rollout/ours/rollout_episode_14_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_0/policy_rollout/diffcollage/rollout_episode_14_success_0.mp4"
+            },
+            "size_bytes": 1813534
+          }
+        ]
+      },
+      "0_1": {
+        "episodes": [
+          {
+            "start_img": "materials/evals/tool_use/start_0_goal_1/start_rt/ep_5_start.png",
+            "goal_img": "materials/evals/tool_use/start_0_goal_1/goal_rt/ep_5_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_0_goal_1/synthesized_video/ours/zt_episode_5_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_1/synthesized_video/diffcollage/zt_episode_5_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_0_goal_1/policy_rollout/ours/rollout_episode_5_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_1/policy_rollout/diffcollage/rollout_episode_5_success_0.mp4"
+            },
+            "size_bytes": 1753746
+          },
+          {
+            "start_img": "materials/evals/tool_use/start_0_goal_1/start_rt/ep_20_start.png",
+            "goal_img": "materials/evals/tool_use/start_0_goal_1/goal_rt/ep_20_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_0_goal_1/synthesized_video/ours/zt_episode_20_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_1/synthesized_video/diffcollage/zt_episode_20_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_0_goal_1/policy_rollout/ours/rollout_episode_20_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_1/policy_rollout/diffcollage/rollout_episode_20_success_0.mp4"
+            },
+            "size_bytes": 1754783
+          },
+          {
+            "start_img": "materials/evals/tool_use/start_0_goal_1/start_rt/ep_27_start.png",
+            "goal_img": "materials/evals/tool_use/start_0_goal_1/goal_rt/ep_27_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_0_goal_1/synthesized_video/ours/zt_episode_27_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_1/synthesized_video/diffcollage/zt_episode_27_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_0_goal_1/policy_rollout/ours/rollout_episode_27_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_1/policy_rollout/diffcollage/rollout_episode_27_success_0.mp4"
+            },
+            "size_bytes": 1767371
+          },
+          {
+            "start_img": "materials/evals/tool_use/start_0_goal_1/start_rt/ep_8_start.png",
+            "goal_img": "materials/evals/tool_use/start_0_goal_1/goal_rt/ep_8_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_0_goal_1/synthesized_video/ours/zt_episode_8_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_1/synthesized_video/diffcollage/zt_episode_8_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_0_goal_1/policy_rollout/ours/rollout_episode_8_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_1/policy_rollout/diffcollage/rollout_episode_8_success_0.mp4"
+            },
+            "size_bytes": 1772399
+          },
+          {
+            "start_img": "materials/evals/tool_use/start_0_goal_1/start_rt/ep_25_start.png",
+            "goal_img": "materials/evals/tool_use/start_0_goal_1/goal_rt/ep_25_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_0_goal_1/synthesized_video/ours/zt_episode_25_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_1/synthesized_video/diffcollage/zt_episode_25_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_0_goal_1/policy_rollout/ours/rollout_episode_25_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_1/policy_rollout/diffcollage/rollout_episode_25_success_0.mp4"
+            },
+            "size_bytes": 1790361
+          },
+          {
+            "start_img": "materials/evals/tool_use/start_0_goal_1/start_rt/ep_6_start.png",
+            "goal_img": "materials/evals/tool_use/start_0_goal_1/goal_rt/ep_6_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_0_goal_1/synthesized_video/ours/zt_episode_6_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_1/synthesized_video/diffcollage/zt_episode_6_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_0_goal_1/policy_rollout/ours/rollout_episode_6_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_0_goal_1/policy_rollout/diffcollage/rollout_episode_6_success_0.mp4"
+            },
+            "size_bytes": 1815969
+          }
+        ]
+      },
+      "1_0": {
+        "episodes": [
+          {
+            "start_img": "materials/evals/tool_use/start_1_goal_0/start_rt/ep_16_start.png",
+            "goal_img": "materials/evals/tool_use/start_1_goal_0/goal_rt/ep_16_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_1_goal_0/synthesized_video/ours/zt_episode_16_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_0/synthesized_video/diffcollage/zt_episode_16_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_1_goal_0/policy_rollout/ours/rollout_episode_16_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_0/policy_rollout/diffcollage/rollout_episode_16_success_0.mp4"
+            },
+            "size_bytes": 1803004
+          },
+          {
+            "start_img": "materials/evals/tool_use/start_1_goal_0/start_rt/ep_4_start.png",
+            "goal_img": "materials/evals/tool_use/start_1_goal_0/goal_rt/ep_4_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_1_goal_0/synthesized_video/ours/zt_episode_4_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_0/synthesized_video/diffcollage/zt_episode_4_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_1_goal_0/policy_rollout/ours/rollout_episode_4_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_0/policy_rollout/diffcollage/rollout_episode_4_success_0.mp4"
+            },
+            "size_bytes": 1830938
+          },
+          {
+            "start_img": "materials/evals/tool_use/start_1_goal_0/start_rt/ep_17_start.png",
+            "goal_img": "materials/evals/tool_use/start_1_goal_0/goal_rt/ep_17_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_1_goal_0/synthesized_video/ours/zt_episode_17_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_0/synthesized_video/diffcollage/zt_episode_17_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_1_goal_0/policy_rollout/ours/rollout_episode_17_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_0/policy_rollout/diffcollage/rollout_episode_17_success_0.mp4"
+            },
+            "size_bytes": 1838550
+          },
+          {
+            "start_img": "materials/evals/tool_use/start_1_goal_0/start_rt/ep_0_start.png",
+            "goal_img": "materials/evals/tool_use/start_1_goal_0/goal_rt/ep_0_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_1_goal_0/synthesized_video/ours/zt_episode_0_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_0/synthesized_video/diffcollage/zt_episode_0_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_1_goal_0/policy_rollout/ours/rollout_episode_0_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_0/policy_rollout/diffcollage/rollout_episode_0_success_0.mp4"
+            },
+            "size_bytes": 1865916
+          },
+          {
+            "start_img": "materials/evals/tool_use/start_1_goal_0/start_rt/ep_2_start.png",
+            "goal_img": "materials/evals/tool_use/start_1_goal_0/goal_rt/ep_2_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_1_goal_0/synthesized_video/ours/zt_episode_2_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_0/synthesized_video/diffcollage/zt_episode_2_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_1_goal_0/policy_rollout/ours/rollout_episode_2_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_0/policy_rollout/diffcollage/rollout_episode_2_success_0.mp4"
+            },
+            "size_bytes": 1873825
+          },
+          {
+            "start_img": "materials/evals/tool_use/start_1_goal_0/start_rt/ep_24_start.png",
+            "goal_img": "materials/evals/tool_use/start_1_goal_0/goal_rt/ep_24_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_1_goal_0/synthesized_video/ours/zt_episode_24_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_0/synthesized_video/diffcollage/zt_episode_24_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_1_goal_0/policy_rollout/ours/rollout_episode_24_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_0/policy_rollout/diffcollage/rollout_episode_24_success_0.mp4"
+            },
+            "size_bytes": 1917157
+          }
+        ]
+      },
+      "1_1": {
+        "episodes": [
+          {
+            "start_img": "materials/evals/tool_use/start_1_goal_1/start_rt/ep_17_start.png",
+            "goal_img": "materials/evals/tool_use/start_1_goal_1/goal_rt/ep_17_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_1_goal_1/synthesized_video/ours/zt_episode_17_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_1/synthesized_video/diffcollage/zt_episode_17_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_1_goal_1/policy_rollout/ours/rollout_episode_17_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_1/policy_rollout/diffcollage/rollout_episode_17_success_0.mp4"
+            },
+            "size_bytes": 1786494
+          },
+          {
+            "start_img": "materials/evals/tool_use/start_1_goal_1/start_rt/ep_9_start.png",
+            "goal_img": "materials/evals/tool_use/start_1_goal_1/goal_rt/ep_9_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_1_goal_1/synthesized_video/ours/zt_episode_9_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_1/synthesized_video/diffcollage/zt_episode_9_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_1_goal_1/policy_rollout/ours/rollout_episode_9_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_1/policy_rollout/diffcollage/rollout_episode_9_success_0.mp4"
+            },
+            "size_bytes": 1790653
+          },
+          {
+            "start_img": "materials/evals/tool_use/start_1_goal_1/start_rt/ep_10_start.png",
+            "goal_img": "materials/evals/tool_use/start_1_goal_1/goal_rt/ep_10_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_1_goal_1/synthesized_video/ours/zt_episode_10_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_1/synthesized_video/diffcollage/zt_episode_10_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_1_goal_1/policy_rollout/ours/rollout_episode_10_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_1/policy_rollout/diffcollage/rollout_episode_10_success_0.mp4"
+            },
+            "size_bytes": 1826018
+          },
+          {
+            "start_img": "materials/evals/tool_use/start_1_goal_1/start_rt/ep_3_start.png",
+            "goal_img": "materials/evals/tool_use/start_1_goal_1/goal_rt/ep_3_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_1_goal_1/synthesized_video/ours/zt_episode_3_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_1/synthesized_video/diffcollage/zt_episode_3_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_1_goal_1/policy_rollout/ours/rollout_episode_3_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_1/policy_rollout/diffcollage/rollout_episode_3_success_0.mp4"
+            },
+            "size_bytes": 1826117
+          },
+          {
+            "start_img": "materials/evals/tool_use/start_1_goal_1/start_rt/ep_7_start.png",
+            "goal_img": "materials/evals/tool_use/start_1_goal_1/goal_rt/ep_7_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_1_goal_1/synthesized_video/ours/zt_episode_7_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_1/synthesized_video/diffcollage/zt_episode_7_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_1_goal_1/policy_rollout/ours/rollout_episode_7_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_1/policy_rollout/diffcollage/rollout_episode_7_success_0.mp4"
+            },
+            "size_bytes": 1833924
+          },
+          {
+            "start_img": "materials/evals/tool_use/start_1_goal_1/start_rt/ep_1_start.png",
+            "goal_img": "materials/evals/tool_use/start_1_goal_1/goal_rt/ep_1_goal.png",
+            "sv": {
+              "ours": "materials/evals/tool_use/start_1_goal_1/synthesized_video/ours/zt_episode_1_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_1/synthesized_video/diffcollage/zt_episode_1_success_0.mp4"
+            },
+            "pr": {
+              "ours": "materials/evals/tool_use/start_1_goal_1/policy_rollout/ours/rollout_episode_1_success_1.mp4",
+              "diffcollage": "materials/evals/tool_use/start_1_goal_1/policy_rollout/diffcollage/rollout_episode_1_success_0.mp4"
+            },
+            "size_bytes": 1847854
+          }
+        ]
+      }
+    }
+  }
+}
